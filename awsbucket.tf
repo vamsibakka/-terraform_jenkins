@@ -1,6 +1,7 @@
-resource "aws_s3_bucket" "awsbucket"{
-    bucket = "bucket_112test_oct14_task"
+resource "aws_s3_bucket" "task_bucket" {
+  bucket = "jenkinsvamosbucketotc1422"
+
   tags = {
-    Name = "first_bucket_jenkins"
+    Name        = "My bucket"
   }
 }
